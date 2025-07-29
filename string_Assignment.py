@@ -54,7 +54,7 @@ a='where are you'
 b=' '
 for i in range(0,len(a)):
     if i==0 or a[i-1]==' ' :
-        b=b+a[i].upper()
+        =b+a[i].upper()
     else:
         b = b + a[i]
 print(b)
